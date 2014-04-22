@@ -1,0 +1,16 @@
+name = f_modulos_principales
+core = 7.x
+package = Features
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = coffee
+dependencies[] = context
+dependencies[] = ctools
+dependencies[] = ds
+dependencies[] = features
+dependencies[] = field_ui
+dependencies[] = module_filter
+dependencies[] = views
+dependencies[] = views_ui
+features[features_api][] = api:2
+project path = sites/all/modules/features
