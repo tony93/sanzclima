@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the f_sainzclimatheme feature.
+ */
+
+include_once 'f_sainzclimatheme.features.inc';
