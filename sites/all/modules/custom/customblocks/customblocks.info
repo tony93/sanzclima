@@ -1,0 +1,4 @@
+name = customblocks
+description = Bloque con tres columnas de los contactos
+core = 7.x
+package = custom

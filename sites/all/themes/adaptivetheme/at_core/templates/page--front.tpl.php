@@ -129,7 +129,7 @@
 
       <!-- !Header Region -->
       <?php print render($page['header']); ?>
-      
+     
     </header>
 
     <!-- !Navigation -->
@@ -162,11 +162,11 @@
             <?php if ($title || $primary_local_tasks || $secondary_local_tasks || $action_links = render($action_links)): ?>
               <header<?php print $content_header_attributes; ?>>
 
-                <?php if ($title): ?>
+                <!--<?php if ($title): ?>
                   <h1 id="page-title">
                     <?php print $title; ?>
                   </h1>
-                <?php endif; ?>
+                <?php endif; ?>-->
 
                 <?php if ($primary_local_tasks || $secondary_local_tasks || $action_links): ?>
                   <div id="tasks">
@@ -192,7 +192,7 @@
             <!-- !Main Content -->
             <?php if ($content = render($page['content'])): ?>
               <div id="content" class="region">
-                <?php print $content; ?>
+                <!--<?php print $content; ?>-->
               </div>
             <?php endif; ?>
 
@@ -202,7 +202,14 @@
             <?php print render($title_suffix); // Prints page level contextual links ?>
 
           </<?php print $tag; ?>><!-- /end #main-content -->
+          
+          <?php print render($page['ss_image']); ?>
 
+          <?php print render($page['trescolumnas_home']); ?>
+
+          <?php print render($page['ss_text']); ?>
+
+          <?php print render($page['trescolumnas_home2']); ?>
           <!-- !Content Aside Region-->
           <?php print render($page['content_aside']); ?>
 

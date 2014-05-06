@@ -1,3 +1,417 @@
 @media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\000031}}
-body {
-  background-color: #e1dede; }
+#page-wrapper {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\000033}}
+#page {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\000035}}
+.container {
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\000037}}
+html, body {
+  background-color: #f0f0f0;
+  margin: 0;
+  width: 100%;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Tahoma, Arial, san-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000312}}
+  html h2, body h2 {
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000316}}
+#branding {
+  width: 13%;
+  float: left;
+  margin: 25px 7.5% 4% 13%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000320}}
+#block-menu-menu-menu-principal {
+  border-radius: 10px;
+  height: 56px;
+  background-color: #dedddd;
+  border: 1px solid #eeeeee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000325}}
+  #block-menu-menu-menu-principal ul.menu {
+    height: 100%;
+    margin: 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000328}}
+  #block-menu-menu-menu-principal a {
+    color: #4f4f4f;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000333}}
+  #block-menu-menu-menu-principal .block-inner {
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000335}}
+  #block-menu-menu-menu-principal .menu-item-483 {
+    height: 50%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000337}}
+#block-menu-menu-menu-principal, .region-header {
+  float: left;
+  width: 65%;
+  margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000342}}
+#header ul.menu li {
+  display: inline-block;
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000345}}
+#views_slideshow_cycle_main_view_ss-block {
+  margin: 0 7% 4% 7%;
+  width: 100%;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000349}}
+#views_slideshow_cycle_teaser_section_view_ss-block {
+  margin: 0 auto;
+  width: 50%;
+  -webkit-box-shadow: 0px 89px 63px -43px #212021;
+  -moz-box-shadow: 0px 89px 63px -43px #212021;
+  box-shadow: 0px 89px 63px -43px #212021; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000355}}
+.region-ss-image {
+  margin-bottom: 5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000357}}
+#views_slideshow_controls_text_previous_view_ss-block, #views_slideshow_controls_text_next_view_ss-block {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000359}}
+#views_slideshow_controls_text_pause_view_ss-block {
+  position: absolute;
+  top: 234px;
+  left: 617px;
+  z-index: 3;
+  background-color: black;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  line-height: 96px;
+  opacity: 0.9;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000371}}
+.region-trescolumnas-home {
+  width: 100%;
+  background: url("images/home-section.png") no-repeat;
+  background-size: 100% 302px;
+  height: 302px;
+  color: white;
+  padding-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000378}}
+#block-block-1 {
+  width: 27%;
+  float: left;
+  padding-left: 7.5%;
+  height: 242px;
+  font-size: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000384}}
+  #block-block-1 h2 {
+    background: url("images/icono_sono.png") no-repeat;
+    padding-left: 43px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000387}}
+  #block-block-1 p {
+    line-height: 2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000389}}
+#block-block-2 {
+  width: 27%;
+  float: left;
+  font-size: 13px;
+  margin: 0 10px 0 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000394}}
+  #block-block-2 h2 {
+    background: url("images/icono_su.png") no-repeat;
+    padding-left: 43px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000397}}
+  #block-block-2 p {
+    line-height: 1.7em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\0000399}}
+#email-newsletter {
+  background-color: #457096;
+  color: white;
+  border: 0;
+  padding: 12px;
+  font-size: 11px;
+  width: 150px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003106}}
+#boton-suscribe {
+  background-color: #021628;
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 5px;
+  margin-left: 10px;
+  border: 0;
+  cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003114}}
+#block-views-view-noticias-ultimas-noticias {
+  width: 27%;
+  float: left;
+  padding-right: 7.5%;
+  font-size: 13px;
+  padding-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003120}}
+  #block-views-view-noticias-ultimas-noticias h2 {
+    background: url("images/icono_info.png") no-repeat;
+    padding-left: 43px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003123}}
+  #block-views-view-noticias-ultimas-noticias .block-content {
+    line-height: 7px;
+    padding-top: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003126}}
+  #block-views-view-noticias-ultimas-noticias a, #block-views-view-noticias-ultimas-noticias a:visited {
+    color: #dedddd;
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003129}}
+.region-ss-text {
+  margin: 0 auto;
+  width: 70%;
+  height: 100px;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003134}}
+#views_slideshow_cycle_teaser_section_view_ss_frases-block {
+  width: 100% !important;
+  margin: 0 auto;
+  font-size: 20px;
+  font-weight: bold;
+  height: 100px !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003140}}
+.region-trescolumnas-home2 {
+  background-color: white;
+  height: 450px;
+  margin-top: 20px;
+  padding-top: 75px;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003146}}
+#block-block-3 {
+  border-top: 1px solid #cfcdcd;
+  float: left;
+  font-size: 11pt;
+  height: 242px;
+  margin-left: 8%;
+  width: 27%;
+  padding-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003154}}
+  #block-block-3 h2 {
+    background: url("images/icono_servicios.png") no-repeat;
+    padding-left: 43px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003157}}
+#block-block-4 {
+  width: 27%;
+  float: left;
+  font-size: 11pt;
+  padding: 20px 10px 0 10px;
+  border-top: solid 1px #cfcdcd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003163}}
+  #block-block-4 h2 {
+    background: url("images/icono_clientes.png") no-repeat;
+    padding-left: 43px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003166}}
+#block-block-5 {
+  width: 28%;
+  float: left;
+  font-size: 11pt;
+  padding-top: 20px;
+  border-top: solid 1px #cfcdcd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003172}}
+  #block-block-5 h2 {
+    background: url("images/icono_soporte.png") no-repeat;
+    padding-left: 43px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003175}}
+#views_slideshow_cycle_teaser_section_view_ss_frases-block .views-slideshow-cycle-main-frame-row {
+  width: 100%;
+  margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003178}}
+#views_slideshow_controls_text_view_ss_frases-block #views_slideshow_controls_text_previous_view_ss_frases-block {
+  background: url("images/flecha_left.png");
+  background-repeat: no-repeat;
+  width: 38px;
+  height: 38px;
+  position: absolute;
+  left: -89px;
+  top: 31px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003186}}
+#views_slideshow_controls_text_view_ss_frases-block #views_slideshow_controls_text_previous_view_ss_frases-block a {
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003188}}
+#views_slideshow_controls_text_view_ss_frases-block #views_slideshow_controls_text_next_view_ss_frases-block {
+  background: url("images/flecha_right.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  right: -86px;
+  top: 31px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003196}}
+#views_slideshow_controls_text_view_ss_frases-block #views_slideshow_controls_text_next_view_ss_frases-block a {
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003198}}
+#views_slideshow_controls_text_view_ss_frases-block #views_slideshow_controls_text_pause_view_ss_frases-block {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003200}}
+#block-quicktabs-tabs-info {
+  width: 60%;
+  float: right;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003204}}
+#block-menu-menu-menu-footer {
+  width: 31%;
+  float: left;
+  margin-left: 8%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003208}}
+  #block-menu-menu-menu-footer a:hover {
+    text-decoration: none;
+    position: relative;
+    animation: mymove 0.5s;
+    animation-fill-mode: forwards; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003213}}
+  #block-menu-menu-menu-footer a:visited {
+    color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003215}}
+  #block-menu-menu-menu-footer h2 {
+    font-size: 24px;
+    font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003218}}
+  #block-menu-menu-menu-footer li {
+    list-style-image: url("images/flecha_menu.png"); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003220}}
+  #block-menu-menu-menu-footer ul {
+    line-height: 45px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003222}}
+.menu-item-496 {
+  border-bottom: 1px solid #aba9a9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003224}}
+.menu-item-497 {
+  border-top: 1px solid #e8e7e7;
+  border-bottom: 1px solid #aba9a9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003227}}
+#quicktabs-container-tabs_info h2 {
+  font-size: 14px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003229}}
+#quicktabs-container-tabs_info {
+  font-size: 13px;
+  height: 175px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003232}}
+.espana {
+  width: 32%;
+  float: left;
+  padding: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003236}}
+  .espana p {
+    line-height: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003238}}
+.brasil {
+  width: 32%;
+  float: left;
+  padding: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003242}}
+  .brasil p {
+    line-height: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003244}}
+.polonia {
+  width: 32%;
+  float: left;
+  padding: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003248}}
+  .polonia p {
+    line-height: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003252}}
+#quicktabs-tabs_info ul a {
+  width: 25px;
+  margin: 11px 0px;
+  height: 50px;
+  text-indent: 5000px;
+  overflow: hidden;
+  font-size: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003259}}
+#quicktabs-container-tabs_info {
+  background-color: #efeeee;
+  border: 1px solid #cfcdcd;
+  margin-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003263}}
+#quicktabs-tab-tabs_info-0 {
+  background: url("images/tel.png") no-repeat center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003265}}
+#quicktabs-tab-tabs_info-1 {
+  background: url("images/lap.png") no-repeat center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003267}}
+#quicktabs-tab-tabs_info-2 {
+  background: url("images/corr.png") no-repeat center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003269}}
+ul.quicktabs-tabs.quicktabs-style-navlist {
+  width: 7.5%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003271}}
+ul.quicktabs-tabs.quicktabs-style-navlist li.active {
+  border-top: 0px solid transparent !important;
+  border-bottom: 0px solid transparent !important;
+  background-color: #efeeee; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003275}}
+.region-footer {
+  background-color: #cecece;
+  border-top: 1px solid #cfcdcd;
+  padding-top: 30px; }
+
+@keyframes mymove {
+  from {
+    left: 0px; }
+
+  to {
+    left: 10px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003284}}
+#block-block-6 {
+  clear: both;
+  width: 100%;
+  height: 58px;
+  margin: auto;
+  background-color: #001a3a;
+  color: white;
+  font-size: 13px;
+  line-height: 58px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003293}}
+  #block-block-6 p {
+    padding-left: 8%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/sanzclima\/sites\/all\/themes\/sanzclimatheme\/dsass\/secciones\/home\.sass}line{font-family:\00003295}}
+.claro {
+  color: #aaaaaa; }

@@ -93,7 +93,7 @@
   regions[ss_image]      = SlideShow Imagenes
   regions[trescolumnas_home]      = About us, suscribe, news
   regions[ss_text]      = SlideShow texto
-  regions[empty_region]      = Region vacia
+  regions[empty_region]      = Región vacía
   regions[trescolumnas_home2]      = Services, clients, support
 
 

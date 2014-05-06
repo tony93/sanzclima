@@ -1,0 +1,72 @@
+<?php
+
+function customblocks_block_info(){
+  $blocks['phone'] = array(
+    'info' => t('Telefono'),
+    'cache' => DRUPAL_CACHE_PER_ROLE, //Default
+  );  
+
+  $blocks['address'] = array(
+    'info' => t('Direccion'),
+    'cache' => DRUPAL_CACHE_PER_ROLE, //Default
+  );  
+
+  $blocks['email'] = array(
+    'info' => t('Correo'),
+    'cache' => DRUPAL_CACHE_PER_ROLE, //Default
+  );  
+  return $blocks;
+}
+function customblocks_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+    case 'phone':
+      $block['subject'] = t('Telefono');
+      $block['content'] = contenido_telefono();
+      break;
+    case 'address':
+      $block['subject'] = t('Direccion');
+      $block['content'] = contenido_direccion();
+      break;
+    case 'email':
+      $block['subject'] = t('Correo');
+      $block['content'] = contenido_correo();
+      break;
+  }
+  return $block;
+}
+function contenido_telefono() {
+  $output = '<div class="espana"><h2>ESPAÑA</h2>';
+  $output .=  '<p><span class="claro">TEL. </span>+34 91 761 38 34</p>';
+  $output .=  '<p><span class="claro">FAX. </span>+34 91 329 42 31</p></div>';
+  $output .= '<div class="brasil"><h2>BRASIL</h2>';
+  $output .=  '<p><span class="claro">TEL. </span>55 (54) 3028 11 55</p>';
+  $output .=  '<p><span class="claro">FAX. </span>55 (54) 3025 27 73</p></div>';
+  $output .= '<div class="polonia"><h2>POLONIA</h2>';
+  $output .=  '<p><span class="claro">TEL. </span>+48 61 8429 166</p>';
+  $output .=  '<p><span class="claro">FAX. </span>+48 61 8429 168</p></div>';
+  return $output;
+}
+function contenido_direccion(){
+  $output = '<div class="espana"><h2>ESPAÑA</h2>';
+  $output .=  '<p>Av. Ing. Torres Quevedo, 6</p>';
+  $output .=  '<p>28022 MADRID</p></div>';
+  $output .= '<div class="brasil"><h2>BRASIL</h2>';
+  $output .=  '<p>Rua Frei Pacífico, 83</p>';
+  $output .=  '<p>Bairro Sao Jose</p>';
+  $output .=  '<p>Caxias do Sul (RS)</p>';
+  $output .=  '<p>CEP 95032-380</p></div>';
+  $output .= '<div class="polonia"><h2>POLONIA</h2>';
+  $output .=  '<p>ul. Obornicka 227</p>';
+  $output .=  '<p>60-650 Poznan</p></div>';
+  return $output;
+}
+function contenido_correo(){
+  $output = '<div class="espana"><h2>ESPAÑA</h2>';
+  $output .=  '<p><a href="mailto:mail@sanz.eu">mail@sanz.eu</a></p></div>';
+  $output .= '<div class="brasil"><h2>BRASIL</h2>';
+  $output .=  '<p><a href="mailto:correio@sanz.eu">correio@sanz.eu</a></p></div>';
+  $output .= '<div class="polonia"><h2>POLONIA</h2>';
+  $output .=  '<p><a href="mailto:poczta@sanz.eu">poczta@sanz.eu</a></p></div>';
+  return $output;
+}
