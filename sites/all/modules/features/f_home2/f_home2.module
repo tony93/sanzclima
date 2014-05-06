@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the f_home2 feature.
+ */
+
+include_once 'f_home2.features.inc';
